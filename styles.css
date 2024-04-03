@@ -1,0 +1,50 @@
+header {
+    background-color: #12b2f7af; /* Default fill color */
+    padding: 4px;
+    border-radius: 20px 20px 20px 20px; /* Rounded corners */
+    text-align:right; /* Center align text */
+}
+
+/* Title styles */
+header h1 {
+    font-family: Arial, sans-serif; /* Specify font */
+    color: #fff; /* Text color */
+    font-size: 75px; /* Font size */
+    letter-spacing: 9px;
+    padding-right: 100px; 
+}
+.navigation-container {
+    background-color: #f7f7f7; /* Background color */
+    border-radius: 20px 20px 20px 20px; /* Rounded corners */
+    width: 300px; /* Width of the rectangle */
+    padding: 10px; /* Padding inside the rectangle */
+    margin-top: 20px; /* Add spacing between header and navigation */
+}
+
+/* Navigation Title styles */
+.navigation-container h2 {
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 30px; /* Font size */
+    color: #333; /* Text color */
+    text-align: center; /* Center align text */
+}
+
+/* Navigation styles */
+.navigation-container nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.navigation-container nav ul li {
+    margin-bottom: 20px; /* Spacing between navigation items */
+}
+
+.navigation-container nav a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Text color */
+    font-size: 30px; /* Font size of navigation links */
+}
+
+.navigation-container nav a:hover {
+    color: #12b2f7af; /* Change text color on hover */
+}
