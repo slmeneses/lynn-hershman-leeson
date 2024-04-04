@@ -13,10 +13,41 @@ header h1 {
     letter-spacing: 9px;
     padding-right: 100px; 
 }
+
+/* Logo container styles */
+.logo-container {
+    position: absolute; /* Set position to absolute */
+    top: 65px; /* Adjust the distance from the top */
+    left: 100px; /* Adjust the distance from the left */
+    width: 100px; /* Width of the container */
+    height: 100px; /* Height of the container */
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #006aff;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+}
+
+/* Logo image styles */
+.logo-container img {
+    width: 40%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-container {
+    position: absolute; /* Set position to absolute */
+    top: 150px; /* Adjust the distance from the top */
+    left: 100px; /* Adjust the distance from the left */
+    font-size: 18px; /* Adjust the text size */
+    color: #ffffff; /* Text color */
+    font-family: Arial, sans-serif;
+}
+
 .navigation-container {
-    background-color: #f7f7f7; /* Background color */
+    background-color: #313031; /* Background color */
     border-radius: 20px 20px 20px 20px; /* Rounded corners */
-    width: 300px; /* Width of the rectangle */
+    width: 270px; /* Width of the rectangle */
     padding: 10px; /* Padding inside the rectangle */
     margin-top: 20px; /* Add spacing between header and navigation */
 }
@@ -25,7 +56,7 @@ header h1 {
 .navigation-container h2 {
     font-family: Arial, sans-serif; /* Specify font */
     font-size: 30px; /* Font size */
-    color: #333; /* Text color */
+    color: #ffffff; /* Text color */
     text-align: center; /* Center align text */
 }
 
@@ -41,10 +72,20 @@ header h1 {
 
 .navigation-container nav a {
     text-decoration: none; /* Remove underline */
-    color: #333; /* Text color */
+    color: #ffffff; /* Text color */
     font-size: 30px; /* Font size of navigation links */
 }
 
 .navigation-container nav a:hover {
     color: #12b2f7af; /* Change text color on hover */
+}
+
+.picture-container {
+    margin-top: 20px; /* Add spacing between navigation links and picture */
+    text-align:center/* Center the picture */
+}
+
+.picture-container img {
+    width: 200px; /* Set width of the picture */
+    height: auto; /* Maintain aspect ratio */
 }
