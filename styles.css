@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: #12b2f7af; /* Default fill color */
+    background-color: #000; /* Default fill color */
     padding: 5px;
     border-radius: 20px 20px 20px 20px; /* Rounded corners */
     text-align:left; /* Center align text */
