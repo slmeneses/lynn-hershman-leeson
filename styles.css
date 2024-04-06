@@ -1,8 +1,13 @@
+body {
+    background-color: #000; /* Black background color */
+}
+
 header {
     background-color: #12b2f7af; /* Default fill color */
-    padding: 4px;
+    padding: 5px;
     border-radius: 20px 20px 20px 20px; /* Rounded corners */
-    text-align:right; /* Center align text */
+    text-align:left; /* Center align text */
+    margin-top: 20px;
 }
 
 /* Title styles */
@@ -11,16 +16,18 @@ header h1 {
     color: #fff; /* Text color */
     font-size: 75px; /* Font size */
     letter-spacing: 9px;
-    padding-right: 100px; 
+    padding-top: 10px;
+    padding-left: 100px; 
+    
 }
 
 /* Logo container styles */
 .logo-container {
     position: absolute; /* Set position to absolute */
-    top: 65px; /* Adjust the distance from the top */
-    left: 100px; /* Adjust the distance from the left */
-    width: 100px; /* Width of the container */
-    height: 100px; /* Height of the container */
+    top: 80px; /* Adjust the distance from the top */
+    right: 190px; /* Adjust the distance from the left */
+    width: 80px; /* Width of the container */
+    height: 80px; /* Height of the container */
     border-radius: 20px; /* Rounded corners */
     overflow: hidden; /* Hide overflowing content */
     background-color: #006aff;
@@ -38,18 +45,46 @@ header h1 {
 .text-container {
     position: absolute; /* Set position to absolute */
     top: 150px; /* Adjust the distance from the top */
-    left: 100px; /* Adjust the distance from the left */
+    right: 180px; /* Adjust the distance from the left */
     font-size: 18px; /* Adjust the text size */
     color: #ffffff; /* Text color */
     font-family: Arial, sans-serif;
 }
+
+.header-image {
+    position: absolute;
+    top: 20px; /* Adjust the distance from the top */
+    left: 20px; /* Adjust the distance from the left */
+}
+
+.end-image img {
+    width: 90px; /* Set width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 20px; /* Apply rounded corners if needed */
+}
+
+.end-image {
+    position: absolute;
+    top: 125px; /* Adjust the distance from the top */
+    right: 25px; /* Adjust the distance from the left */
+}
+
+.header-image img {
+    width: 100px; /* Set width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 20px; /* Apply rounded corners if needed */
+}
+
+
 
 .navigation-container {
     background-color: #313031; /* Background color */
     border-radius: 20px 20px 20px 20px; /* Rounded corners */
     width: 270px; /* Width of the rectangle */
     padding: 10px; /* Padding inside the rectangle */
-    margin-top: 20px; /* Add spacing between header and navigation */
+    margin-top: -20px; /* Add spacing between header and navigation */
+    margin-left: 40px; /* Adjust the distance from the left */
+    margin-bottom: 40px;
 }
 
 /* Navigation Title styles */
@@ -80,12 +115,102 @@ header h1 {
     color: #12b2f7af; /* Change text color on hover */
 }
 
+
 .picture-container {
-    margin-top: 20px; /* Add spacing between navigation links and picture */
-    text-align:center/* Center the picture */
-}
+    position:relative;
+    padding-top: -20px; /* Adjust the top padding */
+    padding-left: 60px; /* Adjust the left padding */
+}  
 
 .picture-container img {
-    width: 200px; /* Set width of the picture */
+    width: 250px; /* Set width of the picture */
     height: auto; /* Maintain aspect ratio */
+}
+
+.glitch-container {
+    position: absolute;
+    top: 270px; /* Adjust the distance from the top */
+    left: 480px;
+    width: 800px; /* Adjust container width */
+    height: 500px; /* Adjust container height */
+    overflow: hidden;
+    background-position: center;/* Center the background image */
+    background: size 30%;
+
+    }
+
+
+section{
+    position:relative;
+    width:100%;
+    height:100%;
+    background: url(gifs/ezgif.com-crop.gif); /* Replace with your image URL */
+    background-position: center;/* Center the background image */
+    background: size 30%;
+  }
+  section:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: url(gifs/ezgif.com-crop.gif); /* Replace with your image URL */
+    background-position: center; /* Center the background image */
+    background: size 30%;
+    opacity:.5;
+    mix-blend-mode:hard-light;
+    animation: animate-move 0.2s linear infinite, animate-pause 3s linear infinite;
+  }
+  
+  
+  @keyframes animate-move{
+      0%{
+          background-position: 0 0;
+          filter:hue-rotate(0deg);
+      }
+      10%{
+          background-position: 5px 0;
+      }
+      20%{
+          background-position: -5px 0;
+      }
+      30%{
+          background-position: 15px 0;
+      }
+      40%{
+          background-position: 5px 0;
+      }
+      50%{
+          background-position: -25px 0;
+      }
+      60%{
+          background-position: -50px 0;
+      }
+      70%{
+          background-position: 0 -20px;
+      }
+      80%{
+          background-position: -60px -20px;
+      }
+      81%{
+          background-position: 0 0;
+      }
+      100%{
+          background-position: 0 0;
+          filter:hue-rotate(360deg);
+      }
+  }
+
+  @keyframes animate-pause {
+    0%, 40% {
+        opacity: 1;
+    }
+    45%, 95% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
 }
