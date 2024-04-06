@@ -1,0 +1,126 @@
+body {
+    background-color: #000; /* Black background color */
+}
+
+header {
+    background-color: #000; /* Default fill color */
+    padding: 5px;
+    border-radius: 20px 20px 20px 20px; /* Rounded corners */
+    text-align:left; /* Center align text */
+    margin-top: 20px;
+}
+
+/* Title styles */
+header h1 {
+    font-family: Arial, sans-serif; /* Specify font */
+    color: #fff; /* Text color */
+    font-size: 50px; /* Font size */
+    letter-spacing: 9px;
+    padding-top: 45px;
+    padding-left: 100px; 
+    
+}
+
+/* Logo container styles */
+.logo-container {
+    position: absolute; /* Set position to absolute */
+    top: 80px; /* Adjust the distance from the top */
+    right: 190px; /* Adjust the distance from the left */
+    width: 80px; /* Width of the container */
+    height: 80px; /* Height of the container */
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #006aff;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+}
+
+/* Logo image styles */
+.logo-container img {
+    width: 40%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-container {
+    position: absolute; /* Set position to absolute */
+    top: 150px; /* Adjust the distance from the top */
+    right: 193px; /* Adjust the distance from the left */
+    font-size: 18px; /* Adjust the text size */
+    color: #ffffff; /* Text color */
+    font-family: Arial, sans-serif;
+}
+
+.picture-container {
+    margin-bottom: -10px;
+    margin-top: -20px;
+    margin-left: 70px;
+
+}  
+
+.picture-container img {
+    width: 250px; /* Set width of the picture */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.navigation-container {
+    background-color: #313031; /* Background color */
+    border-radius: 20px 20px 20px 20px; /* Rounded corners */
+    width: 270px; /* Width of the rectangle */
+    padding: 10px; /* Padding inside the rectangle */
+    margin-top: 20px; /* Add spacing between header and navigation */
+    margin-left: 45px; /* Adjust the distance from the left */
+    margin-bottom: 40px;
+}
+
+/* Navigation Title styles */
+.navigation-container h2 {
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 30px; /* Font size */
+    color: #ffffff; /* Text color */
+    text-align: center; /* Center align text */
+}
+
+/* Navigation styles */
+.navigation-container nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    text-align: center;
+}
+
+.navigation-container nav ul li {
+    margin-bottom: 10px; /* Spacing between navigation items */
+}
+
+.navigation-container nav > ul > li > a {
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* Text color */
+    font-size: 30px; /* Font size of navigation links */
+    display: block; /* Display the links as blocks */
+    padding: 10px 20px;
+}
+
+.navigation-container nav > ul > li > a:hover {
+    color: #12b2f7af; /* Change text color on hover */
+}
+
+
+.sub-menu {
+  text-align: center; /* Center align the sub-menu */
+}
+
+.sub-menu li {
+    display: block; /* Display the sub-menu items horizontally */
+
+}
+
+.sub-menu a {
+    font-size: 20px; /* Font size for sub-menu items */
+    color: #ffffff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding-bottom: 40px; /* Add spacing between sub-menu items */
+}
+
+.sub-menu a:hover {
+    color: #12b2f7af; /* Change text color on hover */
+}
