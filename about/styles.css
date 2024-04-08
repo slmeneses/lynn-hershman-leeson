@@ -8,6 +8,7 @@ header {
     border-radius: 20px 20px 20px 20px; /* Rounded corners */
     text-align:left; /* Center align text */
     margin-top: 20px;
+    
 }
 
 /* Title styles */
@@ -124,3 +125,223 @@ header h1 {
 .sub-menu a:hover {
     color: #12b2f7af; /* Change text color on hover */
 }
+
+.additional-container {
+    position: absolute;
+    top: 250px; /* Adjust as needed */
+    right: 190px; /* Adjust the distance from the left */
+    width: 800px; /* Adjust width as needed */
+    height: 510px; /* Adjust height as needed */
+    background-color: #21f8ff; /* Change background color as needed */
+    border-radius: 50px; /* Adjust border radius as needed */
+    padding: 10px; /* Example padding */
+}
+
+.inner-container {
+    width: 360px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    position: absolute;
+    top: 40px; /* Adjust placement as needed */
+    left: 40px; /* Adjust placement as needed */
+    overflow: hidden; /* Ensure the image doesn't overflow */
+    border-radius: 20px 20px 20px 20px
+}
+
+.inner-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.profile-text-container {
+    position: absolute;
+    top: 40px; /* Adjust placement as needed */
+    right: 60px; /* Adjust placement as needed */
+    width: 280px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: #21f8ff; /* Background color */
+    border-radius: 10px; /* Adjust border radius as needed */
+    padding: 10px; /* Padding for text container */
+    font-family: Arial, sans-serif; /* Specify font */
+    color: #242929; /* Text color */
+    letter-spacing: 1px; /* Adjust letter spacing */
+    line-height: 1.5; /* Adjust line spacing */
+    font-size: 22px; /* Adjust font size */
+    text-align:left; /* Text alignment */
+}
+
+
+.profile-text-container p {
+    margin: 0; /* Remove default margin */
+}
+
+.profile-info-container {
+    position: absolute;
+    width: 320px; /* Adjust width as needed */
+    height: 95px; /* Adjust height as needed */
+    bottom: 40px; /* Adjust placement as needed */
+    left: 40px; /* Adjust placement as needed */
+    background-color: #83fff7; /* Background color */
+    border-radius: 20px; /* Border radius */
+    padding: 20px; /* Padding */
+
+    /* Add more styles as needed */
+}
+
+.profile-info-container p {
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 16px; /* Font size */
+    color: #333; /* Text color */
+    letter-spacing: 1px; /* Letter spacing */
+    line-height: 1.5; /* Line spacing */
+    text-align: left; /* Text alignment */
+    margin: -9px; /* Adjust margin to control distance from edges */
+}
+
+.profile-info-container strong {
+    font-weight: bold; /* Make the specific words bold */
+}
+
+.marquee-container {
+    font-family: Arial, sans-serif; /* Specify the font */
+    font-size: 25px; /* Set the font size */
+    word-spacing: 5px; /* Adjust word spacing */
+    letter-spacing: 2px; /* Adjust letter spacing */
+    color: #ffffff; /* Set text color */
+}
+
+.arrow-image {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    left: 50%; /* Center horizontally */
+    top: 950px; /* Adjust distance from the bottom */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+.custom-text-container {
+    width: 300px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    position: absolute;
+    top: 135%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    text-align: center; /* Center text */
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 20px; /* Set font size */
+    word-spacing: 2px; /* Adjust word spacing */
+    letter-spacing: 1px; /* Adjust letter spacing */
+    color: #991919; /* Set text color */
+}
+
+
+
+.custom-container {
+    background-color: #032f36; /* Background color */
+    border-radius: 40px; /* Rounded corners */
+    width: 400px; /* Adjust width as needed */
+    height: 270px; /* Adjust height as needed */
+    position: absolute; /* Position absolutely */
+    bottom: 50px; /* Adjust the distance from the bottom of the screen */
+    top: 135%; /* Center horizontally */
+    left: 30%;
+    transform: translateX(-50%); /* Center horizontally */
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: height 0.5s;
+
+}
+.custom-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styles */
+    border-radius: 20px;
+    top: 40px; /* Adjust placement as needed */
+    left: 40px;
+}
+
+.custom-container:hover {
+    height: 350px; /* Adjust height on hover */
+}
+
+.custom-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styles */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: #fff; /* Text color */
+    transition: opacity 0.5s; /* Add smooth transition */
+    opacity: 0; /* Initially hidden */
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 14px; /* Set font size */
+    letter-spacing: 1px; /* Adjust letter spacing */
+    line-height: 1.5; /* Adjust line spacing */
+}
+
+.custom-container:hover .text-overlay {
+    opacity: 1; /* Show text on hover */
+}
+
+
+.second-custom-container {
+    background-color: #032f36; /* Background color */
+    border-radius: 40px; /* Rounded corners */
+    width: 400px; /* Adjust width as needed */
+    height: 230px; /* Adjust height as needed */
+    position: absolute; /* Position absolutely */
+    bottom: 50px; /* Adjust the distance from the bottom of the screen */
+    top: 135%; /* Center horizontally */
+    left: 70%;
+    transform: translateX(-50%); /* Center horizontally */
+    padding: 20px;
+    transition: height 0.5s;
+
+}
+.second-custom-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styles */
+    border-radius: 20px;
+    top: 40px; /* Adjust placement as needed */
+    left: 40px;
+}
+
+.second-custom-container:hover {
+    height: 350px; /* Adjust height on hover */
+}
+
+.second-custom-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styles */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: #fff; /* Text color */
+    transition: opacity 0.5s; /* Add smooth transition */
+    opacity: 0; /* Initially hidden */
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 14px; /* Set font size */
+    letter-spacing: 1px; /* Adjust letter spacing */
+    line-height: 1.5; /* Adjust line spacing */
+}
+
+.second-custom-container:hover .text-overlay {
+    opacity: 1; /* Show text on hover */
+}
+
+
+
