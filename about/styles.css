@@ -153,7 +153,7 @@ header h1 {
     height: 95px; /* Adjust height as needed */
     bottom: 40px; /* Adjust placement as needed */
     left: 40px; /* Adjust placement as needed */
-    background-color: #2aedf4; /* Background color */
+    background-color: #62a0982c; /* Background color */
     border-radius: 10px; /* Border radius */
     padding: 20px; /* Padding */
 
@@ -186,7 +186,7 @@ header h1 {
 .profile-info-container p {
     font-family: Arial, sans-serif; /* Specify font */
     font-size: 16px; /* Font size */
-    color: #333; /* Text color */
+    color: #2aedf4d1; /* Text color */
     letter-spacing: 1px; /* Letter spacing */
     line-height: 1.5; /* Line spacing */
     text-align: left; /* Text alignment */
