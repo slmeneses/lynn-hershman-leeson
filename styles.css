@@ -161,3 +161,12 @@ header h1 {
     width: 100px; /* Set the width of the image */
     height: auto; /* Maintain aspect ratio */
 }
+
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Media queries for mobile devices */
+@media only screen and (max-width: 400px) {
+
+}
