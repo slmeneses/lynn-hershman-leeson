@@ -211,7 +211,7 @@ header h1 {
   width: 50%; /* Set the width of the container */
   height: 800px; /* Set the height of the container */
   margin-left: 50%;
-  margin-top: -10%;
+  margin-top: 0%;
 
 }
 .computer-container img {
