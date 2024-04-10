@@ -31,10 +31,14 @@ header h1 {
     height: 80px; /* Height of the container */
     border-radius: 20px; /* Rounded corners */
     overflow: hidden; /* Hide overflowing content */
-    background-color: #006aff;
+    background-color: #00e1ff8b;
     display: flex; /* Use flexbox */
     justify-content: center; /* Center the items horizontally */
     align-items: center; /* Center the items vertically */
+}
+
+.logo-container:hover {
+    background-color: #00e1ffe6;
 }
 
 /* Logo image styles */
@@ -43,97 +47,88 @@ header h1 {
     height: auto; /* Maintain aspect ratio */
 }
 
-.text-container {
+.second-logo-container {
     position: absolute; /* Set position to absolute */
-    top: 150px; /* Adjust the distance from the top */
-    right: 193px; /* Adjust the distance from the left */
-    font-size: 18px; /* Adjust the text size */
-    color: #ffffff; /* Text color */
-    font-family: Arial, sans-serif;
-}
-
-.picture-container {
-    margin-bottom: -10px;
-    margin-top: -20px;
-    margin-left: 70px;
-
-}  
-
-.picture-container img {
-    width: 250px; /* Set width of the picture */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.navigation-container {
-    background-color: #313031; /* Background color */
-    border-radius: 20px 20px 20px 20px; /* Rounded corners */
-    width: 270px; /* Width of the rectangle */
-    padding: 10px; /* Padding inside the rectangle */
-    margin-top: 20px; /* Add spacing between header and navigation */
-    margin-left: 45px; /* Adjust the distance from the left */
-    margin-bottom: 40px;
-}
-
-/* Navigation Title styles */
-.navigation-container h2 {
+    top: 81px; /* Adjust the distance from the top */
+    right: 300px; /* Adjust the distance from the left */
+    width: 120px; /* Width of the container */
+    height: 80px; /* Height of the container */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #006aff6a;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
     font-family: Arial, sans-serif; /* Specify font */
-    font-size: 30px; /* Font size */
     color: #ffffff; /* Text color */
-    text-align: center; /* Center align text */
+    font-size: 20px; /* Font size */
+    text-align: center; /* Text alignment */
+    letter-spacing: 2px;   
+    transition: opacity 0.3s ease; /* Add transition for smooth effect */
 }
 
-/* Navigation styles */
-.navigation-container nav ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0;
-    text-align: center;
+.second-logo-container:hover {
+    background-color: #006affd0;
 }
 
-.navigation-container nav ul li {
-    margin-bottom: 10px; /* Spacing between navigation items */
-}
-
-.navigation-container nav > ul > li > a {
-    text-decoration: none; /* Remove underline */
+.third-logo-container {
+    position: absolute; /* Set position to absolute */
+    top: 81px; /* Adjust the distance from the top */
+    right: 440px; /* Adjust the distance from the left */
+    width: 140px; /* Width of the container */
+    height: 80px; /* Height of the container */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #006aff6a;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    font-family: Arial, sans-serif; /* Specify font */
     color: #ffffff; /* Text color */
-    font-size: 30px; /* Font size of navigation links */
-    display: block; /* Display the links as blocks */
-    padding: 10px 20px;
+    font-size: 20px; /* Font size */
+    text-align: center; /* Text alignment */
+    letter-spacing: 2px;   
+    transition: opacity 0.3s ease; /* Add transition for smooth effect */
 }
 
-.navigation-container nav > ul > li > a:hover {
-    color: #12b2f7af; /* Change text color on hover */
+.third-logo-container:hover {
+    background-color: #006affd0;
 }
 
-
-.sub-menu {
-  text-align: center; /* Center align the sub-menu */
-}
-
-.sub-menu li {
-    display: block; /* Display the sub-menu items horizontally */
-
-}
-
-.sub-menu a {
-    font-size: 20px; /* Font size for sub-menu items */
+.fourth-logo-container {
+    position: absolute; /* Set position to absolute */
+    top: 81px; /* Adjust the distance from the top */
+    right: 600px; /* Adjust the distance from the left */
+    width: 120px; /* Width of the container */
+    height: 80px; /* Height of the container */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #006aff6a;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    font-family: Arial, sans-serif; /* Specify font */
     color: #ffffff; /* Text color */
-    text-decoration: none; /* Remove underline */
-    padding-bottom: 40px; /* Add spacing between sub-menu items */
+    font-size: 20px; /* Font size */
+    text-align: center; /* Text alignment */
+    letter-spacing: 2px;   
+    transition: opacity 0.3s ease; /* Add transition for smooth effect */
 }
 
-.sub-menu a:hover {
-    color: #12b2f7af; /* Change text color on hover */
+.fourth-logo-container:hover {
+    background-color: #006affd0;
 }
+
 
 .additional-container {
     position: absolute;
-    top: 250px; /* Adjust as needed */
-    right: 190px; /* Adjust the distance from the left */
+    top: 65%; /* Place the top edge at the vertical center of the page */
+    left: 50%; /* Place the left edge at the horizontal center of the page */
+    transform: translate(-50%, -50%);
     width: 800px; /* Adjust width as needed */
     height: 510px; /* Adjust height as needed */
-    background-color: #21f8ff; /* Change background color as needed */
-    border-radius: 50px; /* Adjust border radius as needed */
+    background-color: #7bdde000; /* Change background color as needed */
+    border-radius: 15px; /* Adjust border radius as needed */
     padding: 10px; /* Example padding */
 }
 
@@ -144,12 +139,25 @@ header h1 {
     top: 40px; /* Adjust placement as needed */
     left: 40px; /* Adjust placement as needed */
     overflow: hidden; /* Ensure the image doesn't overflow */
-    border-radius: 20px 20px 20px 20px
+    border-radius: 10px 10px 10px 10px
 }
 
 .inner-container img {
     width: 100%; /* Make the image fill the container */
     height: auto; /* Maintain aspect ratio */
+}
+
+.profile-info-container {
+    position: absolute;
+    width: 320px; /* Adjust width as needed */
+    height: 95px; /* Adjust height as needed */
+    bottom: 40px; /* Adjust placement as needed */
+    left: 40px; /* Adjust placement as needed */
+    background-color: #2aedf4; /* Background color */
+    border-radius: 10px; /* Border radius */
+    padding: 20px; /* Padding */
+
+    /* Add more styles as needed */
 }
 
 .profile-text-container {
@@ -158,11 +166,11 @@ header h1 {
     right: 60px; /* Adjust placement as needed */
     width: 280px; /* Adjust width as needed */
     height: 300px; /* Adjust height as needed */
-    background-color: #21f8ff; /* Background color */
-    border-radius: 10px; /* Adjust border radius as needed */
+    background-color: #21f8ff00; /* Background color */
+    border-radius: 20px; /* Adjust border radius as needed */
     padding: 10px; /* Padding for text container */
     font-family: Arial, sans-serif; /* Specify font */
-    color: #242929; /* Text color */
+    color: #83e6e6; /* Text color */
     letter-spacing: 1px; /* Adjust letter spacing */
     line-height: 1.5; /* Adjust line spacing */
     font-size: 22px; /* Adjust font size */
@@ -174,18 +182,6 @@ header h1 {
     margin: 0; /* Remove default margin */
 }
 
-.profile-info-container {
-    position: absolute;
-    width: 320px; /* Adjust width as needed */
-    height: 95px; /* Adjust height as needed */
-    bottom: 40px; /* Adjust placement as needed */
-    left: 40px; /* Adjust placement as needed */
-    background-color: #83fff7; /* Background color */
-    border-radius: 20px; /* Border radius */
-    padding: 20px; /* Padding */
-
-    /* Add more styles as needed */
-}
 
 .profile-info-container p {
     font-family: Arial, sans-serif; /* Specify font */
@@ -222,7 +218,7 @@ header h1 {
     width: 300px; /* Adjust width as needed */
     height: 150px; /* Adjust height as needed */
     position: absolute;
-    top: 135%; /* Center vertically */
+    top: 140%; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Center horizontally and vertically */
     text-align: center; /* Center text */
@@ -234,114 +230,258 @@ header h1 {
 }
 
 
-
-.custom-container {
-    background-color: #032f36; /* Background color */
-    border-radius: 40px; /* Rounded corners */
-    width: 400px; /* Adjust width as needed */
-    height: 270px; /* Adjust height as needed */
-    position: absolute; /* Position absolutely */
-    bottom: 50px; /* Adjust the distance from the bottom of the screen */
-    top: 135%; /* Center horizontally */
-    left: 30%;
-    transform: translateX(-50%); /* Center horizontally */
-    padding: 20px;
-    margin-bottom: 20px;
-    transition: height 0.5s;
-
-}
-.custom-container img {
-    width: 100%; /* Make the image fill the container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove any default inline styles */
-    border-radius: 20px;
-    top: 40px; /* Adjust placement as needed */
-    left: 40px;
-}
-
-.custom-container:hover {
-    height: 350px; /* Adjust height on hover */
-}
-
-.custom-container img {
-    width: 100%; /* Make the image fill the container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove any default inline styles */
-    border-radius: 10px; /* Rounded corners */
-}
-
-.text-overlay {
+.sphere-container-one {
+    width: 700px; /* Adjust width as needed */
+    height: 700px; /* Adjust height as needed */
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    color: #fff; /* Text color */
-    transition: opacity 0.5s; /* Add smooth transition */
-    opacity: 0; /* Initially hidden */
-    font-family: Arial, sans-serif; /* Specify font */
-    font-size: 14px; /* Set font size */
-    letter-spacing: 1px; /* Adjust letter spacing */
-    line-height: 1.5; /* Adjust line spacing */
+    top: 185%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); 
+}/* Center horizontally and vertically */
+
+.sphere-container-one img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
 }
 
-.custom-container:hover .text-overlay {
-    opacity: 1; /* Show text on hover */
-}
-
-
-.second-custom-container {
-    background-color: #032f36; /* Background color */
-    border-radius: 40px; /* Rounded corners */
-    width: 400px; /* Adjust width as needed */
+.info-one {
+    position: relative;
+    top: 40%; /* Center vertically */
+    left: 70%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    width: 230px; /* Adjust width as needed */
     height: 230px; /* Adjust height as needed */
-    position: absolute; /* Position absolutely */
-    bottom: 50px; /* Adjust the distance from the bottom of the screen */
-    top: 135%; /* Center horizontally */
-    left: 70%;
-    transform: translateX(-50%); /* Center horizontally */
-    padding: 20px;
-    transition: height 0.5s;
+    overflow: hidden; /* Hide overflow */
+    transition: width 0.5s, height 0.5s; /* Add smooth transition for width and height changes */
 
 }
-.second-custom-container img {
+
+.info-one img {
     width: 100%; /* Make the image fill the container */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any default inline styles */
-    border-radius: 20px;
-    top: 40px; /* Adjust placement as needed */
-    left: 40px;
+    border-radius: 5px;
 }
 
-.second-custom-container:hover {
-    height: 350px; /* Adjust height on hover */
+.info-one:hover {
+    width: 250px; /* Double the width on hover */
+    height: 250px; /* Double the height on hover */
 }
 
-.second-custom-container img {
-    width: 100%; /* Make the image fill the container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove any default inline styles */
-    border-radius: 10px; /* Rounded corners */
-}
-
-.text-overlay {
+.circle-container-1 {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    color: #fff; /* Text color */
-    transition: opacity 0.5s; /* Add smooth transition */
-    opacity: 0; /* Initially hidden */
+    top: 185%; /* Center vertically */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Adjust circle size */
+    height: 400px; /* Adjust circle size */
+    background-color: rgb(0, 0, 0); /* Semi-transparent background */
+    border-radius: 50%;
+    display: none; /* Initially hide the circle */
+
+
+}
+
+.circle-container-1 p {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center align text */
+    color: white; /* Text color */
     font-family: Arial, sans-serif; /* Specify font */
-    font-size: 14px; /* Set font size */
-    letter-spacing: 1px; /* Adjust letter spacing */
-    line-height: 1.5; /* Adjust line spacing */
+    font-size: 18px; /* Set font size */
+    line-height: 1.75; /* Adjust line spacing */
 }
 
-.second-custom-container:hover .text-overlay {
-    opacity: 1; /* Show text on hover */
+.info-one:hover + .circle-container-1 {
+    display: block; /* Show the circle when .info-one is hovered over */
 }
 
+.info-two {
+    position: relative;
+    top: 25%; /* Center vertically */
+    left: 25%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    width: 250px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflow */
+    transition: width 0.5s, height 0.5s; /* Add smooth transition for width and height changes */
 
+}
+
+.info-two img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styles */
+    border-radius: 5px;
+}
+
+.info-two:hover {
+    width: 270px; /* Double the width on hover */
+    height: 270px; /* Double the height on hover */
+}
+
+.circle-container-2 {
+    position: absolute;
+    top: 185%; /* Center vertically */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Adjust circle size */
+    height: 400px; /* Adjust circle size */
+    background-color: rgb(0, 0, 0); /* Semi-transparent background */
+    border-radius: 50%;
+    display: none; /* Initially hide the circle */
+
+
+}
+
+.circle-container-2 p {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center align text */
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 18px; /* Set font size */
+    line-height: 1.75; /* Adjust line spacing */
+}
+
+.info-two:hover + .circle-container-2 {
+    display: block; /* Show the circle when .info-one is hovered over */
+}
+
+.info-three {
+    position: relative;
+    top: 40%; /* Center vertically */
+    left: 30%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    width: 250px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflow */
+    transition: width 0.5s, height 0.5s; /* Add smooth transition for width and height changes */
+
+}
+
+.info-three img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styles */
+    border-radius: 5px;
+}
+
+.info-three:hover {
+    width: 270px; /* Double the width on hover */
+    height: 270px; /* Double the height on hover */
+}
+
+.circle-container-3 {
+    position: absolute;
+    top: 185%; /* Center vertically */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Adjust circle size */
+    height: 400px; /* Adjust circle size */
+    background-color: rgb(0, 0, 0); /* Semi-transparent background */
+    border-radius: 50%;
+    display: none; /* Initially hide the circle */
+
+
+}
+
+.circle-container-3 p {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center align text */
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 18px; /* Set font size */
+    line-height: 1.75; /* Adjust line spacing */
+}
+
+.info-three:hover + .circle-container-3 {
+    display: block; /* Show the circle when .info-one is hovered over */
+}
+
+.info-four {
+    position: relative;
+    top: 0%; /* Center vertically */
+    left: 75%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    width: 250px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    overflow: hidden; /* Hide overflow */
+    transition: width 0.5s, height 0.5s; /* Add smooth transition for width and height changes */
+
+}
+
+.info-four img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styles */
+    border-radius: 5px;
+}
+
+.info-four:hover {
+    width: 270px; /* Double the width on hover */
+    height: 270px; /* Double the height on hover */
+}
+
+.circle-container-4 {
+    position: absolute;
+    top: 185%; /* Center vertically */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Adjust circle size */
+    height: 400px; /* Adjust circle size */
+    background-color: rgb(0, 0, 0); /* Semi-transparent background */
+    border-radius: 50%;
+    display: none; /* Initially hide the circle */
+
+
+}
+
+.circle-container-4 p {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center align text */
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 18px; /* Set font size */
+    line-height: 1.75; /* Adjust line spacing */
+}
+
+.info-four:hover + .circle-container-4 {
+    display: block; /* Show the circle when .info-one is hovered over */
+}
+
+.bottom-image-container {
+    position: fixed; /* Position the container relative to the viewport */
+    bottom: 0; /* Align the container to the bottom */
+    right: 0; /* Align the container to the right */
+    margin: 20px; /* Adjust the margin as needed */
+    z-index: 999; /* Ensure the container appears above other content */
+}
+
+.bottom-image-container img {
+    width: 100px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.left-top-image-container {
+    position: fixed; /* Position the container relative to the viewport */
+    top: 0; /* Align the container to the top */
+    left: 0; /* Align the container to the left */
+    z-index: 999; /* Ensure the container appears above other content */
+}
+
+.left-top-image-container img {
+    width: 100px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
 

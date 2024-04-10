@@ -1,0 +1,319 @@
+body {
+    background-color: #000; /* Black background color */
+}
+
+header {
+    background-color: #000; /* Default fill color */
+    padding: 5px;
+    border-radius: 20px 20px 20px 20px; /* Rounded corners */
+    text-align:left; /* Center align text */
+    margin-top: 20px;
+    
+}
+
+/* Title styles */
+header h1 {
+    font-family: Arial, sans-serif; /* Specify font */
+    color: #fff; /* Text color */
+    font-size: 50px; /* Font size */
+    letter-spacing: 9px;
+    padding-top: 45px;
+    padding-left: 100px; 
+    
+}
+
+/* Logo container styles */
+.logo-container {
+    position: absolute; /* Set position to absolute */
+    top: 80px; /* Adjust the distance from the top */
+    right: 190px; /* Adjust the distance from the left */
+    width: 80px; /* Width of the container */
+    height: 80px; /* Height of the container */
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #00e1ff8b;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+}
+
+.logo-container:hover {
+    background-color: #00e1ffe6;
+}
+
+/* Logo image styles */
+.logo-container img {
+    width: 40%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.second-logo-container {
+    position: absolute; /* Set position to absolute */
+    top: 81px; /* Adjust the distance from the top */
+    right: 300px; /* Adjust the distance from the left */
+    width: 120px; /* Width of the container */
+    height: 80px; /* Height of the container */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #006aff6a;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    font-family: Arial, sans-serif; /* Specify font */
+    color: #ffffff; /* Text color */
+    font-size: 20px; /* Font size */
+    text-align: center; /* Text alignment */
+    letter-spacing: 2px;   
+    transition: opacity 0.3s ease; /* Add transition for smooth effect */
+}
+
+.second-logo-container:hover {
+    background-color: #006affd0;
+}
+
+.third-logo-container {
+    position: absolute; /* Set position to absolute */
+    top: 81px; /* Adjust the distance from the top */
+    right: 440px; /* Adjust the distance from the left */
+    width: 140px; /* Width of the container */
+    height: 80px; /* Height of the container */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #006aff6a;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    font-family: Arial, sans-serif; /* Specify font */
+    color: #ffffff; /* Text color */
+    font-size: 20px; /* Font size */
+    text-align: center; /* Text alignment */
+    letter-spacing: 2px;   
+    transition: opacity 0.3s ease; /* Add transition for smooth effect */
+}
+
+.third-logo-container:hover {
+    background-color: #006affd0;
+}
+
+.fourth-logo-container {
+    position: absolute; /* Set position to absolute */
+    top: 81px; /* Adjust the distance from the top */
+    right: 600px; /* Adjust the distance from the left */
+    width: 120px; /* Width of the container */
+    height: 80px; /* Height of the container */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #006aff6a;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    font-family: Arial, sans-serif; /* Specify font */
+    color: #ffffff; /* Text color */
+    font-size: 20px; /* Font size */
+    text-align: center; /* Text alignment */
+    letter-spacing: 2px;   
+    transition: opacity 0.3s ease; /* Add transition for smooth effect */
+}
+
+.fourth-logo-container:hover {
+    background-color: #006affd0;
+}
+
+.first-dollie-container {
+    display: flex; /* Use flexbox */
+    justify-content: flex-start; /* Align the item to the end of the main axis (horizontally) */
+    align-items: flex-start; /* Align the item to the start of the cross axis (vertically) */
+    width: 60%; /* Set the container width */
+    height: 90%; /* Set the container height */
+    margin-top: 50px;
+}
+
+.first-dollie-container img {
+    width: 100%; /* Set the width of the image to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.profile-container {
+    display: flex; /* Use flexbox */
+    justify-content:flex-end;/* Center the container horizontally */
+    align-items: flex-end; /* Center the container vertically */
+    width: 100%; /* Set the width of the parent container */
+    margin-left: -20%;
+    margin-top: -30%;
+    
+}
+
+.profile-info-container {
+    font-family: Arial, sans-serif; /* Specify font */
+    margin: 50px; /* Adjust margin to control distance from edges */
+    background-color: #62a0982c; /* Set the background color of the container */
+    width: 250px; /* Set the width of the container */
+    height: 115px; /* Set the height of the container */
+    border-radius: 15px; /* Rounded corners */
+    
+}
+
+.profile-info-container p {
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 20px; /* Font size */
+    color: #2aedf4d1; /* Text color */
+    letter-spacing: 1px; /* Letter spacing */
+    line-height: 1.5; /* Line spacing */
+    text-align: left; /* Text alignment */
+    margin-top: 20px; 
+    margin-left: 20px;
+}
+
+.profile-info-container strong {
+    font-weight: bold; /* Make the specific words bold */
+}
+
+.info-text-container {
+    position: absolute;
+    top: 690px; /* Adjust placement as needed */
+    right: 290px; /* Adjust placement as needed */
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: #f9e61600; /* Background color */
+    border-radius: 20px; /* Adjust border radius as needed */
+    padding: 10px; /* Padding for text container */
+    font-family: Arial, sans-serif; /* Specify font */
+    color: #83e6e6; /* Text color */
+    letter-spacing: 1px; /* Adjust letter spacing */
+    line-height: 1.5; /* Adjust line spacing */
+    font-size: 25px; /* Adjust font size */
+    text-align:left; /* Text alignment */
+}
+
+.computer-container {
+    display: flex; /* Use flexbox */
+    justify-content:flex-end; /* Center the container horizontally */
+    align-items: flex-end; /* Center the container vertically */
+    width: 50%; /* Set the width of the container */
+    height: 800px; /* Set the height of the container */
+    margin-left: 50%;
+    margin-top: 30%;
+
+}
+.computer-container img {
+    max-width: 100%; /* Make the image fill the container */
+    max-height: 100%; /* Make the image fill the container */
+    border-radius: 10px;
+}
+
+.working-container {
+    display: flex; /* Use flexbox */
+    justify-content: flex-start; /* Align the container to the start of the flex container (left) */
+    align-items: flex-start; /* Align the container to the start of the flex container */
+    width: 40%; /* Set the width of the container */
+    height: 800px; /* Set the height of the container */
+    margin-left: 4%; /* Move the container to the left */
+    margin-top: -20%; /* Move the container down */
+}
+
+.working-container img {
+    max-width: 100%; /* Make the image fill the container */
+    max-height: 100%; /* Make the image fill the container */
+    border-radius: 10px; /* Apply border radius */
+}
+
+.more-text {
+    position: absolute;
+    top: 1400px; /* Adjust placement as needed */
+    left: 4%; /* Adjust placement as needed */
+    width: 500px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: #f9e61600; /* Background color */
+    border-radius: 20px; /* Adjust border radius as needed */
+    padding: 10px; /* Padding for text container */
+    font-family: Arial, sans-serif; /* Specify font */
+    color: #83e6e6; /* Text color */
+    letter-spacing: 1px; /* Adjust letter spacing */
+    line-height: 1.5; /* Adjust line spacing */
+    font-size: 20px; /* Adjust font size */
+    text-align:left; /* Text alignment */
+}
+
+.sphere-container-one {
+    width: 700px; /* Adjust width as needed */
+    height: 700px; /* Adjust height as needed */
+    position: absolute;
+    top: 320%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); 
+}/* Center horizontally and vertically */
+
+.sphere-container-one img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    transition: opacity 0.3s ease; /* Add transition for smooth effect */
+}
+
+.sphere-container-one:hover {
+    opacity: 0.1; 
+}
+
+.second-text {
+    position: absolute;
+    bottom: -1500px; /* Adjust placement as needed */
+    left: 47%; /* Adjust placement as needed */
+    width: 700px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: #f9e61600; /* Background color */
+    border-radius: 20px; /* Adjust border radius as needed */
+    padding: 10px; /* Padding for text container */
+    font-family: Arial, sans-serif; /* Specify font */
+    color: #83e6e6; /* Text color */
+    letter-spacing: 1px; /* Adjust letter spacing */
+    line-height: 1.5; /* Adjust line spacing */
+    font-size: 20px; /* Adjust font size */
+    text-align:right; /* Text alignment */
+}
+
+.circle-container {
+    width: 500px; /* Set the width of the circle */
+    height: 500px; /* Set the height of the circle */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #000000; /* Set the background color of the circle */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: -180px; /* Move the circle upwards */
+    margin-left: 460px;
+    z-index: 15;
+}
+
+.circle-text {
+    font-family: Arial, sans-serif; /* Specify font */
+    font-size: 25px; /* Font size */
+    color: #ffffff; /* Text color */
+    line-height: 1.5; /* Line spacing */
+    text-align: center; /* Text alignment */
+    margin: 90px; /* Set margins */
+}
+.bottom-image-container {
+    position: fixed; /* Position the container relative to the viewport */
+    bottom: 0; /* Align the container to the bottom */
+    right: 0; /* Align the container to the right */
+    margin: 20px; /* Adjust the margin as needed */
+    z-index: 999; /* Ensure the container appears above other content */
+}
+
+.bottom-image-container img {
+    width: 100px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.left-top-image-container {
+    position: fixed; /* Position the container relative to the viewport */
+    top: 0; /* Align the container to the top */
+    left: 0; /* Align the container to the left */
+    z-index: 999; /* Ensure the container appears above other content */
+}
+
+.left-top-image-container img {
+    width: 100px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
